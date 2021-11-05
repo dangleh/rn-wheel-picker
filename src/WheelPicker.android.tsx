@@ -8,8 +8,6 @@ import {requireNativeComponent, View} from 'react-native';
 
 const WheelPickerView = requireNativeComponent('WheelPicker');
 
-module.exports = WheelPickerView;
-
 interface Props {
   data: Array<string>;
   isCyclic?: boolean;
